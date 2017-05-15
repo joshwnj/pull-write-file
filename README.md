@@ -7,7 +7,7 @@ currently really simple and does not yet support all fs.createWriteStream option
 ## Example
 
 ``` js
-var Write = require('pull-write-stream')
+var Write = require('pull-write-file')
 
 pull(
   source, //must be buffers (sorry, strings not working yet!)
